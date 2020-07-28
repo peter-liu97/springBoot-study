@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sptringData-JPA" />
+        <module name="springBoot-demo1" />
+        <module name="xiaodupiTest" />
+        <module name="es" />
+        <module name="rabbitMq-study2" />
+        <module name="RabbitMq-Study" />
+        <module name="myBatis" />
+        <module name="JDK8" />
+        <module name="SpringBoot-Redis" />
+        <module name="openjdk" />
+        <module name="Nio" />
+        <module name="SpringDemo" />
+        <module name="es-book" />
+        <module name="JDK-HashMap" />
+        <module name="RabbtMq-Damo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JDK-HashMap" options="-parameters" />
+      <module name="JDK8" options="-parameters" />
+      <module name="Nio" options="-parameters" />
+      <module name="RabbitMq-Study" options="-parameters" />
+      <module name="RabbtMq-Damo" options="-parameters" />
+      <module name="SpringBoot-Redis" options="-parameters" />
+      <module name="SpringDemo" options="-parameters" />
+      <module name="es" options="-parameters" />
+      <module name="es-book" options="-parameters" />
+      <module name="myBatis" options="-parameters" />
+      <module name="openjdk" options="-parameters" />
+      <module name="rabbitMq-study2" options="-parameters" />
+      <module name="springBoot-demo1" options="-parameters" />
+      <module name="sptringData-JPA" options="-parameters" />
+      <module name="xiaodupiTest" options="-parameters" />
+    </option>
+  </component>
+</project>

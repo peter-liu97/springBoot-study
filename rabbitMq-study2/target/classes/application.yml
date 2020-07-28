@@ -1,0 +1,22 @@
+server:
+  port: 8022
+spring:
+  #给项目来个名字
+  application:
+    name: rabbitmq-study
+  #配置rabbitMq 服务器
+  rabbitmq:
+    host: 121.199.65.11
+    port: 5672
+    username: admin
+    password: 970210Lsm
+    #虚拟host 可以不设置,使用server默认host
+
+    listener:
+      simple:
+        acknowledge-mode: manual
+        prefetch: 1
+    publisher-confirms: true #开启消息确认机制
+    publisher-returns: true #支持消息发送失败返回队列
+    template:
+      mandatory: true
